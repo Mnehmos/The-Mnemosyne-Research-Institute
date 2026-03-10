@@ -1,0 +1,24 @@
+# Secrets & credentials
+*.key
+*.pem
+*.env
+.env*
+secrets/
+credentials/
+
+# API tokens
+**/tokens.json
+**/oauth*.json
+
+# Personal data exports
+**/exports/
+**/backups/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.tmp
+.approval_tests_temp/
