@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Mnemosyne Research Institute</title>
+  <meta name="description" content="Advancing the science of memory, AI systems, and agent coordination. The Mnemosyne Research Institute is dedicated to open research at the frontier of machine cognition." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <span class="logo-mark">M</span>
+        <span class="logo-text">Mnemosyne Research Institute</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#donate" class="btn btn-sm">Support Us</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-badge">Est. March 2026</div>
+      <h1 class="hero-title">
+        Where Memory<br />
+        <span class="gradient-text">Meets Machine.</span>
+      </h1>
+      <p class="hero-subtitle">
+        The Mnemosyne Research Institute advances the science of memory architectures,
+        AI systems, and autonomous agent coordination — building the cognitive infrastructure
+        of tomorrow.
+      </p>
+      <div class="hero-actions">
+        <a href="#research" class="btn btn-primary">Explore Research</a>
+        <a href="#donate" class="btn btn-outline">Support Our Work</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-value">2026</span>
+          <span class="stat-label">Founded</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value">Open</span>
+          <span class="stat-label">Research Model</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-value">AI</span>
+          <span class="stat-label">Memory Systems</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About</span>
+        <h2 class="section-title">The Science of Remembering</h2>
+        <p class="section-subtitle">
+          Named for Mnemosyne — the Greek Titaness of memory and mother of the Muses —
+          our institute is dedicated to understanding how intelligent systems encode,
+          retrieve, and reason over knowledge.
+        </p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">&#129504;</div>
+          <h3>Memory Architecture</h3>
+          <p>We study how AI systems can maintain persistent, queryable memory across sessions — moving beyond the context window.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#128279;</div>
+          <h3>Agent Coordination</h3>
+          <p>Building protocols and tools for multi-agent systems that collaborate through shared external state rather than fragile in-context communication.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#128202;</div>
+          <h3>Knowledge Systems</h3>
+          <p>Developing pipelines for indexing, embedding, and retrieving knowledge at scale — from RAG to structured reasoning engines.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">&#128275;</div>
+          <h3>Open Research</h3>
+          <p>Our findings, tools, and frameworks are published openly. We believe the cognitive infrastructure of the future should be shared.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section section-dark" id="research">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Research</span>
+        <h2 class="section-title">Active Programs</h2>
+        <p class="section-subtitle">
+          Our research spans the intersection of cognitive science, AI engineering, and distributed systems.
+        </p>
+      </div>
+      <div class="research-grid">
+        <div class="research-card featured">
+          <div class="research-status active">Active</div>
+          <h3>The OODA Loop Architecture</h3>
+          <p>A framework for building AI agents with continuous observe–orient–decide–act cycles, grounded in persistent external state rather than ephemeral context.</p>
+          <div class="research-tags">
+            <span>Agent Architecture</span>
+            <span>MCP</span>
+            <span>State Management</span>
+          </div>
+        </div>
+        <div class="research-card">
+          <div class="research-status active">Active</div>
+          <h3>Agent Synchronization Protocols</h3>
+          <p>Designing lock-free, event-driven protocols for multiple AI agents to coordinate work without collision or context loss.</p>
+          <div class="research-tags">
+            <span>Multi-Agent</span>
+            <span>Distributed Systems</span>
+          </div>
+        </div>
+        <div class="research-card">
+          <div class="research-status active">Active</div>
+          <h3>Schema-First Validation</h3>
+          <p>Exploring how deterministic schema engines (Zod, JSON Schema) can serve as a "reflex layer" — validating LLM outputs before they cause harm.</p>
+          <div class="research-tags">
+            <span>Validation</span>
+            <span>Safety</span>
+            <span>TypeScript</span>
+          </div>
+        </div>
+        <div class="research-card">
+          <div class="research-status upcoming">Upcoming</div>
+          <h3>Vector Memory Topology</h3>
+          <p>Investigating how the structure of embedding spaces affects retrieval quality, and whether hierarchical indexing can improve long-horizon agent reasoning.</p>
+          <div class="research-tags">
+            <span>RAG</span>
+            <span>Embeddings</span>
+            <span>Retrieval</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Team</span>
+        <h2 class="section-title">The People Behind the Work</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar">LR</div>
+          <h3>Levario Ramirez</h3>
+          <p class="team-role">Founder &amp; Director</p>
+          <p class="team-bio">Systems architect and AI researcher. Builder of nervous systems for machines — from OODA-loop agents to multi-agent coordination frameworks.</p>
+          <div class="team-links">
+            <a href="https://github.com/Mnehmos" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DONATE -->
+  <section class="section section-cta" id="donate">
+    <div class="container">
+      <div class="cta-inner">
+        <span class="section-tag">Support</span>
+        <h2 class="section-title">Fund Open Research</h2>
+        <p class="section-subtitle">
+          Our research is free and open. Your support keeps it that way — covering
+          compute costs, domain infrastructure, and researcher time.
+        </p>
+        <div class="donate-options">
+          <a href="https://github.com/sponsors/Mnehmos" target="_blank" rel="noopener" class="btn btn-primary">
+            &#9825; GitHub Sponsors
+          </a>
+          <a href="mailto:contact@themnemosyneresearchinstitute.com" class="btn btn-outline">
+            Get in Touch
+          </a>
+        </div>
+        <p class="donate-note">Interested in institutional partnership or grant funding? <a href="mailto:research@themnemosyneresearchinstitute.com">Email us.</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="logo-mark">M</span>
+            <span class="logo-text">Mnemosyne Research Institute</span>
+          </div>
+          <p>Advancing the cognitive infrastructure of intelligent systems.</p>
+          <p class="footer-domain">themnemosyneresearchinstitute.com</p>
+        </div>
+        <div class="footer-links">
+          <h4>Research</h4>
+          <ul>
+            <li><a href="#research">Programs</a></li>
+            <li><a href="https://github.com/Mnehmos" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://mnehmos.github.io/Mnehmos/" target="_blank" rel="noopener">Portfolio</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="mailto:info@themnemosyneresearchinstitute.com">info@</a></li>
+            <li><a href="mailto:research@themnemosyneresearchinstitute.com">research@</a></li>
+            <li><a href="mailto:contact@themnemosyneresearchinstitute.com">contact@</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Social</h4>
+          <ul>
+            <li><a href="https://youtube.com/@MnemosyneResearch" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="https://x.com/MnemosyneRI" target="_blank" rel="noopener">X / Twitter</a></li>
+            <li><a href="https://twitch.tv/MnemosyneRI" target="_blank" rel="noopener">Twitch</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 The Mnemosyne Research Institute. All rights reserved.</p>
+        <p>United States &middot; <a href="mailto:admin@themnemosyneresearchinstitute.com">admin@themnemosyneresearchinstitute.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

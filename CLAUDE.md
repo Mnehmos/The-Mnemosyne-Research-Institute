@@ -7,6 +7,7 @@
 | **Name** | The Mnemosyne Research Institute |
 | **Domain** | themnemosyneresearchinstitute.com |
 | **Google Workspace Plan** | Business Plus |
+| **Customer ID** | C03fxoabp |
 | **Org ID** | 9029-1179-4002 |
 | **Founded** | March 9, 2026 |
 | **Location** | United States |
