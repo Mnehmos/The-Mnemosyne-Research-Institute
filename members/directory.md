@@ -13,7 +13,20 @@
 
 | Name | Email | Role | Added |
 |------|-------|------|-------|
-| *(Primary Admin)* | *(TBD)@themnemosyneresearchinstitute.com* | Super Admin | March 9, 2026 |
+| Levario Ramirez | mnehmos@themnemosyneresearchinstitute.com | Super Admin | March 9, 2026 |
+
+## Contact Aliases (all route to primary account)
+
+| Alias | Purpose |
+|-------|---------|
+| admin@themnemosyneresearchinstitute.com | Administrative |
+| research@themnemosyneresearchinstitute.com | Research team communications |
+| info@themnemosyneresearchinstitute.com | Public information requests |
+| contact@themnemosyneresearchinstitute.com | General contact / ProveCalc |
+| social@themnemosyneresearchinstitute.com | Social media |
+| support@themnemosyneresearchinstitute.com | Support requests |
+| security@themnemosyneresearchinstitute.com | Security alerts |
+| noreply@themnemosyneresearchinstitute.com | Automated system email |
 
 ## Onboarding Checklist (per member)
 
