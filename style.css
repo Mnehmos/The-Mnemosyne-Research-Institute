@@ -832,3 +832,147 @@ img { max-width: 100%; display: block; }
   .findings-grid { grid-template-columns: 1fr; }
   .products-grid { grid-template-columns: 1fr; }
 }
+
+
+/* ============================================================
+   NLS TERMINAL — additional token colors
+   ============================================================ */
+.t-directive { color: #c678dd; font-style: italic; }   /* @module @version @target */
+.t-anlu      { color: #e5c07b; font-weight: 500; }     /* [constraint-as-information] */
+.t-section   { color: #61afef; font-weight: 600; }     /* PURPOSE: INPUTS: LOGIC: */
+.t-bullet    { color: #56b6c2; }                       /* • */
+.t-arrow     { color: #56b6c2; }                       /* → */
+.t-num       { color: #d19a66; }                       /* 1. 2. 3. */
+
+/* ============================================================
+   WRITING SECTION
+   ============================================================ */
+.writing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.writing-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition);
+}
+.writing-card:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-glow);
+  color: inherit;
+}
+.writing-card-all {
+  border-style: dashed;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.writing-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.625rem;
+  border-radius: 100px;
+  background: rgba(124,58,237,0.12);
+  color: var(--primary-light);
+  border: 1px solid rgba(124,58,237,0.25);
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 0.875rem;
+  align-self: flex-start;
+}
+.writing-card-all .writing-tag { align-self: center; }
+.writing-card h3 {
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.625rem;
+  color: var(--text-primary);
+  line-height: 1.35;
+}
+.writing-card p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: 1rem;
+}
+.writing-link {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary-light);
+  margin-top: auto;
+  align-self: flex-start;
+}
+.writing-card-all .writing-link { align-self: center; }
+
+/* ============================================================
+   PAPER TAGS (ANLU track)
+   ============================================================ */
+.research-papers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.paper-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.625rem;
+  border-radius: 100px;
+  background: rgba(124,58,237,0.1);
+  color: var(--primary-light);
+  border: 1px solid rgba(124,58,237,0.25);
+  font-family: 'JetBrains Mono', monospace;
+}
+.paper-wip {
+  background: rgba(251,191,36,0.08);
+  color: #fbbf24;
+  border-color: rgba(251,191,36,0.2);
+}
+
+/* ============================================================
+   TEAM QUOTE
+   ============================================================ */
+.team-quote {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  font-style: italic;
+  border-left: 2px solid var(--primary);
+  padding: 0.5rem 0.875rem;
+  margin: 1rem 0 1.25rem;
+  text-align: left;
+  line-height: 1.65;
+}
+
+/* ============================================================
+   PRODUCT QUOTE
+   ============================================================ */
+.product-quote {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: -0.5rem;
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
+/* ============================================================
+   RESPONSIVE — new sections
+   ============================================================ */
+@media (max-width: 1024px) {
+  .writing-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .writing-grid { grid-template-columns: 1fr; }
+  .findings-grid { grid-template-columns: 1fr; }
+}

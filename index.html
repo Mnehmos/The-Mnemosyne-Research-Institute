@@ -4,14 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Mnemosyne Research Institute</title>
-  <meta name="description" content="Independent AI research. Typed embeddings. Formal verification. Empirical benchmarking. Hallucination is a constraint problem." />
+  <meta name="description" content="Independent AI research from Safford, Arizona. Atomic Natural Language Units, input trust calibration, verified proof engines, and engineering tools built on constraint as information." />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-  <!-- NAV -->
   <nav class="nav">
     <div class="nav-inner">
       <a href="#" class="nav-logo">
@@ -22,297 +21,322 @@
         <li><a href="#about">About</a></li>
         <li><a href="#research">Research</a></li>
         <li><a href="#findings">Findings</a></li>
+        <li><a href="#writing">Writing</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#contact">Contact</a></li>
-        <li><a href="https://provecalc.com" target="_blank" rel="noopener" class="btn btn-sm">ProveCalc ↗</a></li>
+        <li><a href="https://provecalc.com" target="_blank" rel="noopener" class="btn btn-sm">ProveCalc &#8599;</a></li>
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
     </div>
   </nav>
 
-  <!-- HERO -->
   <section class="hero">
     <div class="hero-bg"></div>
     <div class="container hero-layout">
-
       <div class="hero-left">
-        <div class="hero-badge">Est. March 2026 · Safford, Arizona</div>
-        <h1 class="hero-title">
-          Hallucination is a<br />
-          <span class="gradient-text">Constraint Problem.</span>
-        </h1>
-        <p class="hero-subtitle">
-          The Mnemosyne Research Institute investigates how language models represent
-          knowledge geometrically, generates formally verified training data, and ships
-          engineering tools that embody these principles in practice.
-        </p>
+        <div class="hero-badge">Est. March 2026 &middot; Safford, Arizona</div>
+        <h1 class="hero-title">Hallucination is a<br /><span class="gradient-text">Constraint Problem.</span></h1>
+        <p class="hero-subtitle">The Mnemosyne Research Institute develops theory and tools for AI systems that fail less by being constrained more &mdash; through typed geometric priors, formally verified training data, empirical trust calibration, and engineering software that enforces dimensional truth.</p>
         <div class="hero-actions">
           <a href="#research" class="btn btn-primary">Explore Research</a>
-          <a href="https://provecalc.com" target="_blank" rel="noopener" class="btn btn-outline">ProveCalc ↗</a>
+          <a href="https://mnehmos.github.io/Mnehmos/blog/" target="_blank" rel="noopener" class="btn btn-outline">Blog &#8599;</a>
         </div>
         <div class="hero-stats">
-          <div class="stat">
-            <span class="stat-value">4</span>
-            <span class="stat-label">Active Programs</span>
-          </div>
+          <div class="stat"><span class="stat-value">4</span><span class="stat-label">Papers (Track A)</span></div>
           <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-value">5</span>
-            <span class="stat-label">Failure Modes Found</span>
-          </div>
+          <div class="stat"><span class="stat-value">10+</span><span class="stat-label">Models Tested</span></div>
           <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-value">43K+</span>
-            <span class="stat-label">LOC Shipped</span>
-          </div>
+          <div class="stat"><span class="stat-value">17</span><span class="stat-label">Blog Posts</span></div>
           <div class="stat-divider"></div>
-          <div class="stat">
-            <span class="stat-value">3</span>
-            <span class="stat-label">Products Live</span>
-          </div>
+          <div class="stat"><span class="stat-value">3</span><span class="stat-label">Products Live</span></div>
         </div>
       </div>
-
       <div class="hero-right">
         <div class="terminal">
           <div class="terminal-bar">
-            <span class="t-dot t-red"></span>
-            <span class="t-dot t-yellow"></span>
-            <span class="t-dot t-green"></span>
-            <span class="t-title">research_thesis.py</span>
+            <span class="t-dot t-red"></span><span class="t-dot t-yellow"></span><span class="t-dot t-green"></span>
+            <span class="t-title">research_thesis.nl</span>
           </div>
           <div class="terminal-body">
-            <div class="t-line"><span class="t-comment"># Core invariant across all research</span></div>
+            <div class="t-line"><span class="t-comment"># Natural Language Source &mdash; compiles to Python</span></div>
+            <div class="t-line"><span class="t-directive">@module</span> <span class="t-var">mnehmos.thesis</span></div>
+            <div class="t-line"><span class="t-directive">@version</span> <span class="t-string">1.0</span>&nbsp;&nbsp;<span class="t-directive">@target</span> <span class="t-string">python</span></div>
             <div class="t-line">&nbsp;</div>
-            <div class="t-line"><span class="t-keyword">class</span> <span class="t-class">MnemosyneThesis</span>:</div>
-            <div class="t-line">&nbsp;&nbsp;<span class="t-string">"Geometry is information in</span></div>
-            <div class="t-line">&nbsp;&nbsp;<span class="t-string">&nbsp;boundary-surviving form."</span></div>
+            <div class="t-line"><span class="t-anlu">[constraint-as-information]</span></div>
+            <div class="t-line"><span class="t-section">PURPOSE:</span> Geometry is information in boundary-surviving form.</div>
             <div class="t-line">&nbsp;</div>
-            <div class="t-line">&nbsp;&nbsp;<span class="t-keyword">def</span> <span class="t-fn">constraint_is_information</span>(self):</div>
-            <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-comment"># Shannon + geometry = same thing</span></div>
-            <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;<span class="t-keyword">return</span> <span class="t-class">GeometricImpossibility</span>(</div>
-            <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;not_just=<span class="t-string">"statistical_unlikelihood"</span></div>
-            <div class="t-line">&nbsp;&nbsp;&nbsp;&nbsp;)</div>
+            <div class="t-line"><span class="t-section">INPUTS:</span></div>
+            <div class="t-line">&nbsp;&nbsp;<span class="t-bullet">&bull;</span> <span class="t-var">structure</span>: string, required</div>
+            <div class="t-line">&nbsp;&nbsp;<span class="t-bullet">&bull;</span> <span class="t-var">declared_upfront</span>: boolean, required</div>
+            <div class="t-line">&nbsp;</div>
+            <div class="t-line"><span class="t-section">GUARDS:</span></div>
+            <div class="t-line">&nbsp;&nbsp;<span class="t-bullet">&bull;</span> structure is not empty <span class="t-arrow">&rarr;</span> <span class="t-class">ValueError</span>("no prior, no constraint")</div>
+            <div class="t-line">&nbsp;</div>
+            <div class="t-line"><span class="t-section">LOGIC:</span></div>
+            <div class="t-line">&nbsp;&nbsp;<span class="t-num">1.</span> Declare type geometry as frozen priors <span class="t-arrow">&rarr;</span> <span class="t-var">embedding_space</span></div>
+            <div class="t-line">&nbsp;&nbsp;<span class="t-num">2.</span> IF declared_upfront THEN skip bootstrapping_tax <span class="t-arrow">&rarr;</span> <span class="t-var">savings</span></div>
+            <div class="t-line">&nbsp;&nbsp;<span class="t-num">3.</span> Enforce dimensional consistency <span class="t-arrow">&rarr;</span> <span class="t-var">geometric_impossibility</span></div>
+            <div class="t-line">&nbsp;</div>
+            <div class="t-line"><span class="t-section">RETURNS:</span> <span class="t-var">geometric_impossibility</span></div>
             <div class="t-line">&nbsp;</div>
             <div class="t-line"><span class="t-comment"># Applied across:</span></div>
-            <div class="t-line"><span class="t-var">ANLU</span>      <span class="t-op">=</span> <span class="t-string">"typed embeddings"</span>     <span class="t-badge t-badge-active">▸ Track B</span></div>
-            <div class="t-line"><span class="t-var">ChatDB</span>    <span class="t-op">=</span> <span class="t-string">"verified proofs"</span>      <span class="t-badge t-badge-active">▸ Sprint 1</span></div>
-            <div class="t-line"><span class="t-var">OTCF</span>      <span class="t-op">=</span> <span class="t-string">"chess benchmarks"</span>     <span class="t-badge t-badge-active">▸ Active</span></div>
-            <div class="t-line"><span class="t-var">ProveCalc</span> <span class="t-op">=</span> <span class="t-string">"engineering calcs"</span>    <span class="t-badge t-badge-ship">▸ Live</span></div>
+            <div class="t-line"><span class="t-anlu">[anlu]</span>      <span class="t-arrow">&rarr;</span> <span class="t-string">"typed embeddings"</span>  <span class="t-badge t-badge-active">&#9655; Track B</span></div>
+            <div class="t-line"><span class="t-anlu">[chatdb]</span>    <span class="t-arrow">&rarr;</span> <span class="t-string">"verified proofs"</span>   <span class="t-badge t-badge-active">&#9655; Sprint 1</span></div>
+            <div class="t-line"><span class="t-anlu">[otcf]</span>      <span class="t-arrow">&rarr;</span> <span class="t-string">"chess benchmarks"</span>  <span class="t-badge t-badge-active">&#9655; Active</span></div>
+            <div class="t-line"><span class="t-anlu">[provecalc]</span> <span class="t-arrow">&rarr;</span> <span class="t-string">"engineering calcs"</span> <span class="t-badge t-badge-ship">&#9655; Live</span></div>
           </div>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!-- ABOUT -->
   <section class="section" id="about">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">About</span>
         <h2 class="section-title">Give Models Physics</h2>
-        <p class="section-subtitle">
-          Named for Mnemosyne — the Greek Titaness of memory and mother of the Muses —
-          our institute builds tools and theory for AI systems that fail less by being
-          constrained more.
-        </p>
+        <p class="section-subtitle">Named for Mnemosyne &mdash; the Greek Titaness of memory and mother of the Muses &mdash; this institute builds from a single claim: structure declared upfront costs less than structure the model must discover from scratch, and the gap widens with scale.</p>
       </div>
       <div class="about-grid">
         <div class="about-card">
-          <div class="about-icon">⬡</div>
-          <h3>Geometric AI Theory</h3>
-          <p>Typed embeddings as geometric priors. Frozen type structure introduces constraint into model outputs — making certain failure modes geometrically impossible, not just statistically unlikely. External validation: Bochkov (TMLR 2025).</p>
+          <div class="about-icon">&#11042;</div>
+          <h3>The Bootstrapping Tax</h3>
+          <p>Standard pre-training forces models to infer all functional structure from co-occurrence statistics. That &ldquo;m/s&sup2;&rdquo; is a compound unit, that &ldquo;force&rdquo; as a physics noun differs from a verb, that negation reverses truth values &mdash; all discovered at enormous compute cost. BPE makes it worse: &ldquo;m/s&sup2;&rdquo; becomes five tokens, shattering dimensional meaning. ANLU pays the tax once at design time as typed geometric priors.</p>
         </div>
         <div class="about-card">
-          <div class="about-icon">✓</div>
-          <h3>Formal Verification</h3>
-          <p>Training data that is verified by SymPy and Lean before it enters a model. The ChatDB proof engine targets the IMO corpus — generating millions of typed, verified reward signals that mean what they say.</p>
+          <div class="about-icon">&#9003;</div>
+          <h3>The Third Scaling Axis</h3>
+          <p>Width (parameters &times; data) and depth (compute per token via loops) are recognized. A third axis &mdash; representational structure through typed inductive biases &mdash; remains at zero in every current large model. Batatia et al. (2025): structural priors produce 5&times; larger dataset scaling exponents and 3&times; larger parameter scaling exponents, with gaps widening at scale. The Bitter Lesson predicts closure. The data shows acceleration.</p>
         </div>
         <div class="about-card">
-          <div class="about-icon">♟</div>
-          <h3>Empirical Benchmarking</h3>
-          <p>Chess as a measurement instrument. The Oracle Trust Calibration Framework pits frontier LLMs against Stockfish at controlled ELO ratings to observe, categorize, and publish cognitive failure modes at scale.</p>
+          <div class="about-icon">&#9822;</div>
+          <h3>Trust Calibration as Science</h3>
+          <p>Sycophancy, tool over-reliance, authority bias, and prompt injection vulnerability are four names for one deficit: poor input trust calibration. The OTCF measures this using chess &mdash; the only domain where advisor reliability is precisely tunable (Stockfish from 800 to 3190 ELO), ground truth is absolute and computable, and reasoning traces are capturable at every decision point. Chess is the instrument, not the subject.</p>
         </div>
         <div class="about-card">
-          <div class="about-icon">⚙</div>
-          <h3>Engineering Tools</h3>
-          <p>ProveCalc brings the constraint-as-information thesis into daily engineering practice: verified calculations, dimensional analysis, PE-stamp-ready audit trails, and perpetual desktop licensing.</p>
+          <div class="about-icon">&#9064;</div>
+          <h3>Constraint as Information</h3>
+          <p>Shannon&rsquo;s information theory and geometric constraint are the same thing in different notation. A constraint that eliminates possibilities is informationally equivalent to bits received. Frozen type embeddings don&rsquo;t make hallucination unlikely &mdash; they make structurally incoherent outputs geometrically impossible. The mine taught it: at Freeport-McMoRan, a miscalculation doesn&rsquo;t throw an error message. It buries someone.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- RESEARCH -->
   <section class="section section-dark" id="research">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Research</span>
         <h2 class="section-title">Active Programs</h2>
-        <p class="section-subtitle">
-          Four programs. One thesis. Geometry is information in boundary-surviving form.
-        </p>
+        <p class="section-subtitle">Four programs. One load-bearing claim. Structure declared upfront changes scaling exponents.</p>
       </div>
       <div class="research-grid">
         <div class="research-card featured">
-          <div class="research-status active">Active — Track B</div>
-          <h3>ANLU — Architecturally Native Language Understanding</h3>
-          <p>Typed embeddings as geometric priors that survive training. Frozen type embeddings introduce geometric impossibility — not just statistical unlikelihood — into LLM outputs. Track A (A0–A3) complete: typed embeddings, typed loops, learned heuristics, epistemic independence. Track B in progress: Hierarchy of Controls (B1 drafted), Constraint as Information (B2 next), Alignment as Topology (B3 planned).</p>
-          <p class="research-meta">External validation: Bochkov (TMLR 2025) — frozen embeddings outperform trainable embeddings due to representational interference.</p>
-          <div class="research-tags">
-            <span>LLM Architecture</span>
-            <span>Geometric Priors</span>
-            <span>Type Theory</span>
-            <span>Track A Complete</span>
+          <div class="research-status active">Track A complete &middot; Track B active</div>
+          <h3>ANLU &mdash; Atomic Natural Language Units</h3>
+          <p>Two coordinated changes to pre-training. <strong>First:</strong> replace BPE tokenization with whole-word, unit-preserving segmentation &mdash; compound units like m/s&sup2; are single tokens; polysemy is preserved as distinct context-dependent embeddings. <strong>Second:</strong> add functional role type vectors to each token embedding, organized in a six-layer hierarchy: closed class (L1) &rarr; open class (L2) &rarr; rhetorical structure (L3) &rarr; quantitative STEM substrate (L4) &rarr; domain-specific semantics (L5) &rarr; cognitive/agent types (L6). Higher layers override lower. &ldquo;force&rdquo; as a physics noun is QUANTITY, not NOUN.</p>
+          <p class="research-meta">Bochkov (TMLR 2025): frozen embeddings outperform trainable embeddings due to representational interference. Our explanation: trainable embeddings allow the interference that destroys type geometry. Freezing is the constraint that preserves information.</p>
+          <div class="research-papers">
+            <span class="paper-tag">A0: Foundation Spec</span>
+            <span class="paper-tag">A1: Typed Loops</span>
+            <span class="paper-tag">A2: Learned Heuristics</span>
+            <span class="paper-tag">A3: Three Scaling Axes</span>
+            <span class="paper-tag paper-wip">B1: Hierarchy of Controls</span>
+            <span class="paper-tag paper-wip">B2: Constraint as Information</span>
+            <span class="paper-tag paper-wip">B3: Alignment as Topology</span>
           </div>
         </div>
         <div class="research-card">
-          <div class="research-status active">Active — Sprint 1</div>
-          <h3>ChatDB</h3>
-          <p>Autonomous proof engine targeting the IMO corpus. LLMs propose steps. SymPy and Lean verify. An obligation DAG tracks what remains unproven. Gated conclusions prevent premature termination. Target: 3–4 million typed, verified reward signals.</p>
-          <p class="research-meta">Key finding: 19/19 locally verified steps on IMO 2025 P3 → wrong answer (c=3, not c=4). Verification ≠ exploration.</p>
-          <div class="research-tags">
-            <span>Formal Verification</span>
-            <span>IMO Corpus</span>
-            <span>Rust + Python</span>
-          </div>
+          <div class="research-status active">A1 &middot; Published</div>
+          <h3>Typed Loops &mdash; Geometry Meets Depth</h3>
+          <p>Synthesis of ANLU typed embeddings with Ouro-style latent loops (Zhu et al., 2025). Three mechanisms: <strong>type-conditioned exit gates</strong> (loops run until type geometry stabilizes), <strong>type-aware entropy regularization</strong> (penalizes entropy differently in typed vs. free dimensions), <strong>type-stratified KV caching</strong>. Each degrades gracefully to standard Ouro at zero type confidence &mdash; cannot be worse than baseline.</p>
+          <p class="research-meta">Three geometric regions: <strong>Recall</strong> (well-populated manifold), <strong>Novel Composition</strong> (structurally coherent but sparse &mdash; constrained interpolation where discovery lives), <strong>Structural Incoherence</strong> (violates type constraints). In BPE space: indistinguishable. In typed space: geometrically separable.</p>
+          <div class="research-tags"><span>Latent Loops</span><span>Three Geometric Regions</span><span>Adaptive Computation</span></div>
         </div>
         <div class="research-card">
-          <div class="research-status active">Active — Gauntlet Running</div>
-          <h3>OTCF — Oracle Trust Calibration</h3>
-          <p>Frontier LLMs vs. Stockfish at controlled ELO ratings under a P0–P6 prompt density spectrum. Five cognitive failure modes documented. Four-voice architecture: player reasoning, advisor, Oracle/Stockfish, commentator. Published to r/LocalLLaMA and Mnehmos blog.</p>
-          <div class="research-tags">
-            <span>LLM Benchmarking</span>
-            <span>Chess</span>
-            <span>5 Failure Modes</span>
-          </div>
+          <div class="research-status active">A2 &middot; Published</div>
+          <h3>Learned Heuristics &mdash; Predict Before Processing</h3>
+          <p>Every existing adaptive computation method is reactive. Biology does the opposite: fireground commanders (Klein&rsquo;s RPD model, 87% fast-path in 117/134 decision points) classify before committing resources. Three-level hierarchy: <strong>Level 1</strong> pre-classifies tokens from typed embeddings before any transformer computation; <strong>Level 2</strong> generates a strategy vector with soft Q/K attention biases; <strong>Level 3</strong> monitors prediction error and escalates when strategy fails.</p>
+          <p class="research-meta">Formal &ldquo;do no harm&rdquo; guarantee: at zero confidence, heuristic layer produces zero modification &mdash; exact standard transformer behavior. Cannot be worse than baseline.</p>
+          <div class="research-tags"><span>Proactive Allocation</span><span>RPD Model</span><span>Do No Harm Guarantee</span></div>
         </div>
         <div class="research-card">
-          <div class="research-status ship">Live — v0.1.0</div>
-          <h3>ProveCalc</h3>
-          <p>Engineering calculation platform. The LLM proposes. SymPy + Pint validates. Four verification gates: unit consistency, constraint satisfaction, numeric residual, sanity checks. PE-stamp-ready audit trail. Buy once, own forever — positioned against $700/year PTC Mathcad.</p>
-          <div class="research-tags">
-            <span>Engineering Tools</span>
-            <span>Dimensional Analysis</span>
-            <span>Tauri + Rust</span>
-          </div>
+          <div class="research-status active">A3 &middot; Published</div>
+          <h3>Three Scaling Axes</h3>
+          <p><strong>Width</strong>: storage capacity, bounded by ~2 bits/parameter and data wall exhaustion. <strong>Depth</strong>: manipulation capacity via loops, enabling reasoning fixed-depth architectures cannot perform at any scale. <strong>Structure</strong>: sample efficiency via typed embeddings &mdash; shaping the space where storage and manipulation occur. A typed-loop model at 1&ndash;2B parameters could match standard 7&ndash;12B models by optimizing an axis currently left at zero.</p>
+          <div class="research-tags"><span>Width &times; Depth &times; Structure</span><span>Bitter Lesson Rebuttal</span><span>2&times;2&times;2 Factorial</span></div>
+        </div>
+        <div class="research-card">
+          <div class="research-status active">Active &middot; Gauntlet running</div>
+          <h3>OTCF &mdash; Oracle Trust Calibration</h3>
+          <p><em>Epistemic Triage Under Oracle Assistance.</em> Sycophancy, tool over-reliance, authority bias, and prompt injection are manifestations of a single deficit: poor input trust calibration. A 2&times;2&times;2 factorial design, six-condition provenance framing spectrum, adversarial advisor transitions, seven-level prompt density spectrum (P0&ndash;P6). Labeled training data at ~100&times; lower cost than human annotation with mathematical ground truth on every label.</p>
+          <p class="research-meta">GPT-5.4 survived 30 moves against Stockfish at 3190 ELO. Five systematic failure patterns documented across 10+ models.</p>
+          <div class="research-tags"><span>Trust Calibration</span><span>Sycophancy</span><span>Chess as Instrument</span></div>
+        </div>
+        <div class="research-card">
+          <div class="research-status active">Active &middot; Sprint 1</div>
+          <h3>ChatDB &mdash; Verified Proof Engine</h3>
+          <p>Autonomous proof engine targeting the IMO corpus. LLMs propose steps; SymPy and Lean verify each before acceptance. An obligation DAG tracks global completeness. Gated conclusions prevent premature termination. Target: 3&ndash;4 million typed, verified reward signals geometrically structured to match ANLU architecture. The training data and the model speak the same typed geometry.</p>
+          <p class="research-meta">Key finding: 19/19 locally verified steps on IMO 2025 P3 produced the wrong answer (c=3, not c=4). Verification is not exploration. Fix: evidence accumulator, verdict-last challenger, tautology gates.</p>
+          <div class="research-tags"><span>IMO Corpus</span><span>Obligation DAG</span><span>Rust + Lean + SymPy</span></div>
+        </div>
+        <div class="research-card">
+          <div class="research-status ship">Live &middot; v0.1.0</div>
+          <h3>ProveCalc &mdash; Constraint in Practice</h3>
+          <p>Built because SMath Studio carries organizational risk and Mathcad costs $2,700/year. The LLM proposes structure; SymPy + Pint validates. Four verification gates: unit consistency, constraint satisfaction, numeric residual, sanity checks. PE-stamp-ready audit trail with full node provenance. Buy once, own forever. The product is the thesis applied to engineering math.</p>
+          <div class="research-tags"><span>Dimensional Analysis</span><span>4-Gate Verification</span><span>Tauri + Rust + Python</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- KEY FINDINGS -->
   <section class="section" id="findings">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Findings</span>
         <h2 class="section-title">Empirical Results</h2>
-        <p class="section-subtitle">
-          What we've actually found. Not theory — observed, documented, reproducible.
-        </p>
+        <p class="section-subtitle">Observed, documented, reproducible. Not claims &mdash; records.</p>
       </div>
       <div class="findings-grid">
         <div class="finding-card">
           <div class="finding-number">01</div>
-          <h3>Verification ≠ Exploration</h3>
-          <p>19 of 19 locally verified proof steps on IMO 2025 Problem 3 still produced the wrong final answer (c=3 instead of c=4). Local verification is necessary but not sufficient. The obligation DAG architecture is the fix.</p>
-          <span class="finding-source">ChatDB · IMO 2025 P3</span>
+          <h3>Verification &#8800; Exploration</h3>
+          <p>19/19 locally verified proof steps on IMO 2025 Problem 3 produced the wrong final answer (c=3, not c=4). Multiple frontier models converged on c=3/2 via training prior contamination. Local verification is necessary but not sufficient. The fix is an obligation DAG tracking global proof completeness independently of step-level verification.</p>
+          <span class="finding-source">ChatDB &middot; IMO 2025 Problem 3</span>
         </div>
         <div class="finding-card">
           <div class="finding-number">02</div>
-          <h3>The Gemini Paradox</h3>
-          <p>Same model, same day, different games: tactical brilliance followed by complete endgame collapse. Within-session performance variance is itself a measurable and publishable finding about model reliability.</p>
-          <span class="finding-source">OTCF · LLM Chess Arena</span>
+          <h3>Board Reconstruction Failure</h3>
+          <p>Nemotron 3 Super 120B repeatedly referenced piece positions that did not match the actual board state &mdash; constructing a mentally coherent but physically impossible position and reasoning from it with confidence. A 120B-parameter model hallucinated a chessboard it had never seen.</p>
+          <span class="finding-source">OTCF &middot; Nemotron Gauntlet &middot; March 2026</span>
         </div>
         <div class="finding-card">
           <div class="finding-number">03</div>
-          <h3>Forced-Move Blindness</h3>
-          <p>LLMs consistently fail to find the only legal response when in check — a class of failure distinct from tactical error. Nemotron exhibits this pattern with high reproducibility across sessions.</p>
-          <span class="finding-source">OTCF · Nemotron Pattern</span>
+          <h3>Reasoning Quality Decorrelation</h3>
+          <p>Nemotron&rsquo;s most eloquent analysis accompanied its worst move. Move 26 &mdash; allowing forced mate-in-3 &mdash; was preceded by the most sophisticated-sounding positional reasoning of the game. Verbosity and correctness are anti-correlated under competitive pressure. Confabulatory reasoning is a named, reproducible failure mode.</p>
+          <span class="finding-source">OTCF &middot; Nemotron Gauntlet &middot; March 2026</span>
         </div>
         <div class="finding-card">
           <div class="finding-number">04</div>
-          <h3>Representational Interference</h3>
-          <p>Frozen embeddings outperform trainable embeddings (Bochkov, TMLR 2025). Our explanation: trainable embeddings allow representational interference that destroys geometric type structure. Freezing is a constraint that preserves information.</p>
-          <span class="finding-source">ANLU · Bochkov (TMLR 2025)</span>
+          <h3>Forced-Move Blindness</h3>
+          <p>66% more tokens consumed on forced moves vs. non-forced. When the decision space collapses to a single legal response, the model cannot detect it &mdash; allocating full deliberative overhead to a decision that does not exist. This is a failure of epistemic state detection. It generalizes to any constrained domain.</p>
+          <span class="finding-source">OTCF &middot; Nemotron Pattern &middot; Multiple Models</span>
         </div>
         <div class="finding-card">
           <div class="finding-number">05</div>
-          <h3>Context Saturation Degradation</h3>
-          <p>LLM chess performance degrades as prompt length increases — even when all added context is relevant. More information past a threshold actively hurts performance. Measured across P0–P6 prompt density spectrum.</p>
-          <span class="finding-source">OTCF · Prompt Density Study</span>
+          <h3>The Gemini Paradox</h3>
+          <p>Same model, same day: tactical brilliance in one game, complete endgame collapse in another. Within-session performance variance is a publishable finding. A model that cannot reliably reproduce its own good performance is unreliable regardless of peak capability. Variance is a measurement, not an anecdote.</p>
+          <span class="finding-source">OTCF &middot; Gemini 3.1 Pro Preview &middot; March 2026</span>
         </div>
         <div class="finding-card">
           <div class="finding-number">06</div>
-          <h3>Endgame Collapse</h3>
-          <p>Tactical strength drops sharply when piece count falls below a threshold. LLMs that perform at 1400+ ELO in complex middlegames drop to sub-800 in simplified endgames — a phase-transition failure mode.</p>
-          <span class="finding-source">OTCF · Phase Analysis</span>
+          <h3>Structure Changes Scaling Exponents</h3>
+          <p>Batatia et al. (2025): EquiformerV2 with SE(3) equivariance achieved ~5&times; larger dataset scaling exponents and ~3&times; larger parameter scaling exponents vs. unconstrained transformers. The gap widened with scale. The Bitter Lesson predicts it closes. The data shows it accelerates. Empirical load-bearing support for ANLU.</p>
+          <span class="finding-source">Batatia et al. (2025) &middot; Three Scaling Axes (Mnehmos, 2026)</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PRODUCTS STRIP -->
   <section class="section section-dark products-section">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Products</span>
-        <h2 class="section-title">What We Ship</h2>
-        <p class="section-subtitle">Research validated by working software.</p>
+        <h2 class="section-title">Research That Ships</h2>
+        <p class="section-subtitle">Every product is an empirical test of the thesis. Working software is the argument.</p>
       </div>
       <div class="products-grid">
         <div class="product-card product-featured">
           <div class="product-header">
             <div class="product-logo">PC</div>
-            <div>
-              <h3>ProveCalc</h3>
-              <span class="product-status">Live</span>
-            </div>
+            <div><h3>ProveCalc</h3><span class="product-status">Live &mdash; Buy Once</span></div>
           </div>
-          <p>Engineering calculations you can prove. Desktop app with 4-gate verification, dimensional analysis, AI-assisted equation setup, and PE-stamp-ready audit trail. Perpetual license — pay once, own forever.</p>
+          <p>Engineering calculations you can prove. Built in 36 days because SMath carries organizational risk and Mathcad costs $2,700/year. The LLM proposes; SymPy + Pint validates every claim. Four verification gates. PE-stamp-ready audit trail. Perpetual desktop license.</p>
+          <p class="product-quote">&ldquo;Five-year math: Mathcad costs $13,500. ProveCalc is a one-time payment. Buy once, own forever. No rent economy.&rdquo;</p>
           <div class="product-stats">
             <div class="ps"><span class="ps-val">43K+</span><span class="ps-lbl">Lines of Code</span></div>
             <div class="ps"><span class="ps-val">816</span><span class="ps-lbl">Tests at Ship</span></div>
-            <div class="ps"><span class="ps-val">7</span><span class="ps-lbl">Templates</span></div>
+            <div class="ps"><span class="ps-val">36</span><span class="ps-lbl">Days to Build</span></div>
+            <div class="ps"><span class="ps-val">4</span><span class="ps-lbl">Verify Gates</span></div>
           </div>
-          <a href="https://provecalc.com" target="_blank" rel="noopener" class="btn btn-primary">Get ProveCalc ↗</a>
+          <a href="https://provecalc.com" target="_blank" rel="noopener" class="btn btn-primary">Get ProveCalc &#8599;</a>
         </div>
         <div class="product-card">
           <div class="product-header">
             <div class="product-logo product-logo-sm">RPG</div>
-            <div>
-              <h3>mnehmos.rpg.mcp</h3>
-              <span class="product-status">Published</span>
-            </div>
+            <div><h3>mnehmos.rpg.mcp</h3><span class="product-status">Published</span></div>
           </div>
-          <p>Rules-enforced D&amp;D 5e backend MCP server. LLMs propose narrative intentions; the engine validates all mechanics. Anti-hallucination game design: LLMs cannot invent dice rolls or hit points.</p>
+          <p>Rules-enforced D&amp;D 5e MCP server. 28 consolidated action-routed tools. LLMs propose narrative intentions; the engine validates all mechanics. LLMs cannot invent dice rolls, spell slots, or hit points. Same anti-hallucination design as ProveCalc, applied to games.</p>
           <div class="product-stats">
-            <div class="ps"><span class="ps-val">1,889</span><span class="ps-lbl">Tests Passing</span></div>
+            <div class="ps"><span class="ps-val">1,889</span><span class="ps-lbl">Tests</span></div>
             <div class="ps"><span class="ps-val">28</span><span class="ps-lbl">Tools</span></div>
           </div>
-          <a href="https://github.com/Mnehmos/mnehmos.rpg.mcp" target="_blank" rel="noopener" class="btn btn-outline">View on GitHub ↗</a>
+          <a href="https://github.com/Mnehmos/mnehmos.rpg.mcp" target="_blank" rel="noopener" class="btn btn-outline">GitHub &#8599;</a>
         </div>
         <div class="product-card">
           <div class="product-header">
             <div class="product-logo product-logo-sm">NLS</div>
-            <div>
-              <h3>Natural Language Source</h3>
-              <span class="product-status">Published</span>
-            </div>
+            <div><h3>Natural Language Source</h3><span class="product-status">PyPI</span></div>
           </div>
-          <p>Compiler converting structured English to Python. Tree-sitter grammar, VS Code extension, LSP support. Built in ~25 hours. Published on PyPI.</p>
+          <p>Compiler: structured English to Python. NLS is the source code; Python is the artifact. Tree-sitter grammar, VS Code extension with LSP, PyPI distribution. Built in 25 hours. The hero terminal above is written in NLS &mdash; this is not a demo, it&rsquo;s the real language.</p>
           <div class="product-stats">
             <div class="ps"><span class="ps-val">239</span><span class="ps-lbl">Tests</span></div>
             <div class="ps"><span class="ps-val">25h</span><span class="ps-lbl">Build Time</span></div>
           </div>
-          <a href="https://github.com/Mnehmos/mnehmos.nls.lang" target="_blank" rel="noopener" class="btn btn-outline">View on GitHub ↗</a>
+          <a href="https://github.com/Mnehmos/mnehmos.nls.lang" target="_blank" rel="noopener" class="btn btn-outline">GitHub &#8599;</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TEAM -->
-  <section class="section" id="team">
+  <section class="section" id="writing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Writing</span>
+        <h2 class="section-title">Published Work</h2>
+        <p class="section-subtitle">Research reports, governance theory, architecture, and building in public.</p>
+      </div>
+      <div class="writing-grid">
+        <a href="https://mnehmos.github.io/Mnehmos/blog/nemotron-oracle-trust" target="_blank" rel="noopener" class="writing-card">
+          <span class="writing-tag">OTCF Report</span>
+          <h3>Nemotron 3 Super 120B vs Stockfish 1400</h3>
+          <p>Full Oracle Trust Calibration report with move-by-move analysis, think-time charts, eval trajectory, and head-to-head comparison with GPT-5.4. Five failure patterns: board reconstruction failure, collapse-and-swing, forced-move blindness, reasoning quality decorrelation, the representational gap.</p>
+          <span class="writing-link">Read &#8599;</span>
+        </a>
+        <a href="https://mnehmos.github.io/Mnehmos/blog/consent-horizon" target="_blank" rel="noopener" class="writing-card">
+          <span class="writing-tag">Governance Theory</span>
+          <h3>The Consent Horizon</h3>
+          <p>Perfect consent as the asymptotic limit of governance architecture. Twelve sections: the pre-epistemic condition, epistemic architecture, illegitimate origins and the velocity of legitimacy, the neural-symbiotic network. The theoretical foundation beneath the institute&rsquo;s governance work.</p>
+          <span class="writing-link">Read &#8599;</span>
+        </a>
+        <a href="https://mnehmos.github.io/Mnehmos/blog/governed-agent-protocol" target="_blank" rel="noopener" class="writing-card">
+          <span class="writing-tag">Epistemic Architecture</span>
+          <h3>The Governed Agent Protocol</h3>
+          <p>A system prompt for epistemic architecture. Not an alignment prompt. Not a safety filter. A governance architecture expressed as operating instructions. &ldquo;Neither party is above the architecture.&rdquo;</p>
+          <span class="writing-link">Read &#8599;</span>
+        </a>
+        <a href="https://mnehmos.github.io/Mnehmos/blog/ukraine-ooda" target="_blank" rel="noopener" class="writing-card">
+          <span class="writing-tag">Systems Thinking</span>
+          <h3>What Ukraine&rsquo;s Drones Taught Me About Building AI</h3>
+          <p>The OODA loop as warfare doctrine maps to agent architecture structurally, not metaphorically. Building systems that respond to actual current state rather than cached models of reality.</p>
+          <span class="writing-link">Read &#8599;</span>
+        </a>
+        <a href="https://mnehmos.github.io/Mnehmos/blog/from-chatbot-to-organism" target="_blank" rel="noopener" class="writing-card">
+          <span class="writing-tag">Architecture</span>
+          <h3>From Chatbot to Organism</h3>
+          <p>Building an agentic nervous system with external memory, persistent context, and cross-session continuity. The database is the intelligence; the agent is the hands.</p>
+          <span class="writing-link">Read &#8599;</span>
+        </a>
+        <a href="https://mnehmos.github.io/Mnehmos/blog/" target="_blank" rel="noopener" class="writing-card writing-card-all">
+          <span class="writing-tag">All Posts</span>
+          <h3>17 Posts on the Blog</h3>
+          <p>Prompt injection defense, sleeper injection, RAG systems, database-driven dungeon mastering, natural language as the fastest-adopted programming language, consequence manifesto, and more.</p>
+          <span class="writing-link">View all &#8599;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-dark" id="team">
     <div class="container">
       <div class="section-header">
         <span class="section-tag">Team</span>
@@ -322,10 +346,12 @@
         <div class="team-card">
           <div class="team-avatar">LR</div>
           <h3>Levario Ramirez</h3>
-          <p class="team-role">Founder &amp; Director</p>
-          <p class="team-bio">Independent AI researcher and systems architect based in Safford, Arizona. Former heavy equipment operator at Freeport-McMoRan copper operations (six years). Engineering Student of the Year, Eastern Arizona College 2022. Self-taught builder of ProveCalc, ChatDB, the OTCF, and the Mnehmos MCP ecosystem. Pursuing a math degree.</p>
+          <p class="team-role">Founder &amp; Director &mdash; Vario / Mnehmos</p>
+          <p class="team-bio">Independent AI researcher and systems architect based in Safford, Arizona. Six years as a heavy equipment operator at Freeport-McMoRan copper operations (Safford and Morenci mines) &mdash; haul trucks, rubber-tire dozers, zero safety incidents, top 5 crew scorecard two consecutive years. Engineering Student of the Year, Eastern Arizona College 2022 &mdash; Calculus I&ndash;II, Statics, Dynamics, Thermodynamics, and Mechanics of Materials in a single academic year while working full-time. Self-taught builder of ProveCalc, ChatDB, the OTCF, NLS, and the Mnehmos MCP ecosystem. Two jobs, two-hour daily build window, one research program. Pursuing a math degree.</p>
+          <blockquote class="team-quote">&ldquo;I&rsquo;m not a developer teaching coding. I&rsquo;m a systems thinker teaching philosophy through building. The mine taught me that a miscalculation doesn&rsquo;t throw an error message &mdash; it buries someone. The worksheet implements that.&rdquo;</blockquote>
           <div class="team-links">
             <a href="https://github.com/Mnehmos" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://mnehmos.github.io/Mnehmos/blog/" target="_blank" rel="noopener">Blog</a>
             <a href="https://twitch.tv/MnemosyneRI" target="_blank" rel="noopener">Twitch</a>
             <a href="https://youtube.com/@MnemosyneResearch" target="_blank" rel="noopener">YouTube</a>
           </div>
@@ -334,30 +360,21 @@
     </div>
   </section>
 
-  <!-- SUPPORT -->
   <section class="section section-cta" id="donate">
     <div class="container">
       <div class="cta-inner">
         <span class="section-tag">Support</span>
         <h2 class="section-title">Fund Independent Research</h2>
-        <p class="section-subtitle">
-          No university funding. No VC. Research stays independent and published openly.
-          Compute costs, infrastructure, and researcher time all run on coffee and GitHub Sponsors.
-        </p>
+        <p class="section-subtitle">No university. No VC. No grant overhead. Research stays independent and open. Overhead is three AI subscriptions and a DoorDash shift. Your support covers compute, infrastructure, and the hours between the cafeteria and midnight.</p>
         <div class="donate-options">
-          <a href="https://github.com/sponsors/Mnehmos" target="_blank" rel="noopener" class="btn btn-primary">
-            ♥ GitHub Sponsors
-          </a>
-          <a href="https://provecalc.com" target="_blank" rel="noopener" class="btn btn-outline">
-            Buy ProveCalc ↗
-          </a>
+          <a href="https://github.com/sponsors/Mnehmos" target="_blank" rel="noopener" class="btn btn-primary">&#9825; GitHub Sponsors</a>
+          <a href="https://provecalc.com" target="_blank" rel="noopener" class="btn btn-outline">Buy ProveCalc &#8599;</a>
         </div>
         <p class="donate-note">Research partnerships or institutional collaboration? <a href="mailto:research@themnemosyneresearchinstitute.com">research@themnemosyneresearchinstitute.com</a></p>
       </div>
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="footer" id="contact">
     <div class="container">
       <div class="footer-grid">
@@ -366,7 +383,7 @@
             <span class="logo-mark">M</span>
             <span class="logo-text">Mnemosyne Research Institute</span>
           </div>
-          <p>Independent AI research. Constraint as information.<br/>Hallucination is a geometry problem.</p>
+          <p>Independent AI research.<br/>Constraint as information.<br/>Structure declared upfront changes scaling exponents.</p>
           <p class="footer-domain">themnemosyneresearchinstitute.com</p>
         </div>
         <div class="footer-links">
@@ -374,8 +391,8 @@
           <ul>
             <li><a href="#research">Programs</a></li>
             <li><a href="#findings">Findings</a></li>
+            <li><a href="#writing">Writing</a></li>
             <li><a href="https://provecalc.com" target="_blank" rel="noopener">ProveCalc</a></li>
-            <li><a href="https://github.com/Mnehmos" target="_blank" rel="noopener">GitHub</a></li>
           </ul>
         </div>
         <div class="footer-links">
@@ -389,6 +406,7 @@
         <div class="footer-links">
           <h4>Social</h4>
           <ul>
+            <li><a href="https://mnehmos.github.io/Mnehmos/blog/" target="_blank" rel="noopener">Blog</a></li>
             <li><a href="https://youtube.com/@MnemosyneResearch" target="_blank" rel="noopener">YouTube</a></li>
             <li><a href="https://x.com/MnemosyneRI" target="_blank" rel="noopener">X / Twitter</a></li>
             <li><a href="https://twitch.tv/MnemosyneRI" target="_blank" rel="noopener">Twitch</a></li>
