@@ -7,7 +7,7 @@ Effective: March 17, 2026
 | Address | Use Case | Do Use For | Do Not Use For |
 |---------|----------|------------|----------------|
 | contact@ | ProveCalc public contact | Website contact forms, footer | Internal comms |
-| research@ | Research inquiries | Paper correspondence, DARPA | Product support |
+| research@ | Research inquiries | Paper correspondence, academic collaboration | Product support |
 | info@ | General public | Press, general questions | Transactional email |
 | admin@ | Administration | Billing, Google Workspace | Public-facing |
 | noreply@ | Automated email | Stripe receipts, system notifications | Receiving replies |

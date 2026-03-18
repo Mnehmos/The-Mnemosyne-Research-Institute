@@ -42,8 +42,6 @@ Key finding: 19/19 locally verified steps on IMO 2025 P3 still produced the wron
 
 Scale target: 3–4 million typed reward signals from the IMO corpus. These signals are geometrically structured to match ANLU's architecture. The training data and the model architecture speak the same typed geometry. This is the research moat.
 
-DARPA CLARA TA1 abstract drafted. Pending SAM.gov UEI registration.
-
 → [Research details](research/chatdb/README.md)
 
 ---

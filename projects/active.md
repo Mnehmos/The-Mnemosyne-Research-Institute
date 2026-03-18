@@ -23,13 +23,11 @@ Active priorities: native PDF pipeline, persistence hardening, step-by-step solv
 
 ## ChatDB
 
-**Type:** Research platform + DARPA grant target  
+**Type:** Research platform  
 **Repo:** ChatDB  
 **Status:** Sprint 1 — obligation parsing pipeline
 
 Obligation-driven proof engine for verified mathematical training data generation. Target corpus: IMO problems (~400 problems × ~200 steps = 3–4M typed reward signals). Key empirical result: IMO 2025 P3 contamination study showing verification ≠ exploration.
-
-DARPA CLARA TA1 abstract drafted. Blocked on SAM.gov UEI registration.
 
 ---
 

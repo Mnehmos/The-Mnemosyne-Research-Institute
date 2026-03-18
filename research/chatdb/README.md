@@ -3,7 +3,6 @@
 **Research Lead:** Levario Ramirez  
 **Status:** Sprint 1 active — obligation parsing pipeline  
 **Stack:** Tauri (Rust) + React + Python sidecar (SymPy + Lean)  
-**DARPA Program:** CLARA (TA1) — abstract drafted, SAM.gov UEI registration prerequisite
 
 ---
 
@@ -43,23 +42,6 @@ Architectural fixes implemented:
 - Verdict-last challenger format
 - Tautology gates
 
-This finding is the empirical backbone of the DARPA CLARA proposal.
-
----
-
-## DARPA CLARA Proposal
-
-**Program:** Compartmentalized Language Research and Applications (CLARA)  
-**Track:** TA1 — Training data generation with formal verification  
-**Status:** Abstract drafted, full proposal pending UEI registration
-
-**Value proposition to DARPA:** ChatDB produces training data that is:
-1. Formally verified (not just evaluated by another LLM)
-2. Typed and structured (geometric co-design with ANLU)
-3. Scalable to millions of reward signals
-4. Auditable at every step
-
-**Prerequisites:** SAM.gov UEI registration for Mnemosyne Research Institute
 
 ---
 
